@@ -12,7 +12,7 @@ const MovieList = props => {
           console.log(response.data);
         })
         .catch(error => {
-          console.error("Server Error", error);
+          console.log("Server Error", error);
         });
     };
 
